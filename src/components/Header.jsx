@@ -83,16 +83,17 @@ export function Header() {
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           exit={{ opacity: 0 }}
-                          className="fixed inset-0 z-0 bg-gray-300/60 backdrop-blur"
+                          className="fixed inset-0 z-0 bg-gray-900/60 backdrop-blur"
                         />
                         <Popover.Panel
                           static
                           as={motion.div}
-                          initial={{ opacity: 0, y: -32 }}
+                          initial={{ opacity: 0, y: -50 }}
                           animate={{ opacity: 1, y: 0 }}
+                        
                           exit={{
                             opacity: 0,
-                            y: -32,
+                            y: -100,
                             transition: { duration: 0.2 },
                           }}
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-800 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"

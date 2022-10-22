@@ -336,7 +336,7 @@ function AppDemo() {
 
 export function Hero() {
   return (
-    <div className="overflow-hidden bg-gray-900 py-20 sm:py-32 lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden bg-gray-900 py-8 sm:py-32 lg:pb-32 xl:pb-36">
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="bg-gray-900 relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6 text-white">
@@ -351,7 +351,7 @@ export function Hero() {
                 variant="outline"
               >
                 <PlayIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2.5">Watch the video</span>
+                <span className="ml-2.5 text-gray-100">Watch the video</span>
               </Button>
             </div>
           </div>
